@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pondok Pesantren Husnul Khotimah</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  /* Reset & Font */
+  * {margin:0; padding:0; box-sizing:border-box;}
+  body {font-family: 'Roboto', sans-serif; line-height:1.6; color:#333;}
+  
+  /* Navbar */
+  header {background:#4CAF50; color:white; padding:30px 20px; text-align:center;}
+  nav {background:#2E7D32; display:flex; justify-content:center; position:sticky; top:0; z-index:1000;}
+  nav a {color:white; padding:15px 20px; text-decoration:none; font-weight:bold;}
+  nav a:hover {background:#1B5E20;}
+  
+  /* Sections */
+  section {padding:60px 20px; max-width:1000px; margin:auto;}
+  h2 {color:#2E7D32; margin-bottom:20px; text-align:center;}
+  
+  /* Galeri */
+  .gallery {display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:15px;}
+  .gallery img {width:100%; border-radius:10px; transition: transform 0.3s;}
+  .gallery img:hover {transform: scale(1.05);}
+  
+  /* Formulir PSB */
+  form {max-width:600px; margin:auto; display:flex; flex-direction:column; gap:15px;}
+  input, textarea, select, button {padding:10px; border-radius:5px; border:1px solid #ccc; font-size:1rem;}
+  button {background:#4CAF50; color:white; border:none; cursor:pointer; font-weight:bold;}
+  button:hover {background:#2E7D32;}
+  
+  /* Footer */
+  footer {background:#2E7D32; color:white; text-align:center; padding:20px; margin-top:40px;}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Pondok Pesantren Husnul Khotimah</h1>
+  <p>Kuningan, Jawa Barat</p>
+</header>
+
+<nav>
+  <a href="#home">Beranda</a>
+  <a href="#about">Tentang Kami</a>
+  <a href="#gallery">Galeri</a>
+  <a href="#psb">PSB</a>
+  <a href="#contact">Kontak</a>
+</nav>
+
+<section id="home">
+  <h2>Selamat Datang</h2>
+  <p style="text-align:center;">Selamat datang di Pondok Pesantren Husnul Khotimah, tempat pendidikan agama dan karakter santri di Kuningan, Jawa Barat. Bersama kami, santri dibimbing untuk menjadi generasi yang cerdas, berakhlak mulia, dan mandiri.</p>
+</section>
+
+<section id="about">
+  <h2>Tentang Kami</h2>
+  <p>Sejarah pondok, visi & misi, dan kegiatan pendidikan yang dijalankan untuk mencetak santri unggul. Pondok Pesantren Husnul Khotimah fokus pada pengajaran Al-Qur’an, ilmu agama, dan pendidikan karakter.</p>
+</section>
+
+<section id="gallery">
+  <h2>Galeri Foto</h2>
+  <div class="gallery">
+    <img src="foto1.jpg" alt="Foto Pondok">
+    <img src="foto2.jpg" alt="Kegiatan Santri">
+    <img src="foto3.jpg" alt="Asrama">
+    <img src="foto4.jpg" alt="Kegiatan Mengaji">
+    <img src="foto5.jpg" alt="Fasilitas Pondok">
+  </div>
+</section>
+
+<section id="psb">
+  <h2>Penerimaan Santri Baru (PSB)</h2>
+  <form>
+    <input type="text" placeholder="Nama Lengkap" required>
+    <input type="email" placeholder="Email" required>
+    <input type="tel" placeholder="No. Telepon" required>
+    <select required>
+      <option value="">Pilih Jenjang Pendidikan</option>
+      <option value="mts">MTs</option>
+      <option value="ma">MA</option>
+    </select>
+    <textarea placeholder="Alamat Lengkap" required></textarea>
+    <button type="submit">Daftar Sekarang</button>
+  </form>
+</section>
+
+<section id="contact">
+  <h2>Kontak Kami</h2>
+  <p style="text-align:center;">Alamat: Kuningan, Jawa Barat<br>Email: info@husnulkhotimah.sch.id | Telepon: 0812-XXXX-XXXX</p>
+</section>
+
+<footer>
+  <p>&copy; 2026 Pondok Pesantren Husnul Khotimah. Semua hak dilindungi.</p>
+</footer>
+
+</body>
+</html>
